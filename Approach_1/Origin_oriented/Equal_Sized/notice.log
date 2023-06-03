@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2023-04-27-22-16-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
+0.000000	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	equal-sized brute-force script loaded for protocol HTTPS (443/tcp)	-	-	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.15 appears to be brute-forcing/brute-forced HTTPS (seen 1199[+-0] equal-sized responses of TCP size 1430).	-	192.168.10.15	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.15 appears to be brute-forcing/brute-forced HTTPS (seen 804[+-0] equal-sized responses of TCP size 1460).	-	192.168.10.15	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.9 appears to be brute-forcing/brute-forced HTTPS (seen 1635[+-0] equal-sized responses of TCP size 1460).	-	192.168.10.9	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.9 appears to be brute-forcing/brute-forced HTTPS (seen 1228[+-0] equal-sized responses of TCP size 1430).	-	192.168.10.9	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.5 appears to be brute-forcing/brute-forced HTTPS (seen 1487[+-0] equal-sized responses of TCP size 1430).	-	192.168.10.5	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.51 appears to be brute-forcing/brute-forced HTTPS (seen 1227[+-0] equal-sized responses of TCP size 1448).	-	192.168.10.51	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSEqualSizedResponsesBruteForce::Brute_Forcing	192.168.10.17 appears to be brute-forcing/brute-forced HTTPS (seen 1038[+-0] equal-sized responses of TCP size 1448).	-	192.168.10.17	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+#close	2023-04-27-22-17-14

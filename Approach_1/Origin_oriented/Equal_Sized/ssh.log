@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssh
+#open	2023-04-27-22-16-57
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	auth_success	auth_attempts	direction	client	server	cipher_alg	mac_alg	compression_alg	kex_alg	host_key_alg	host_key
+#types	time	string	addr	port	addr	port	count	bool	count	enum	string	string	string	string	string	string	string	string
+1499342577.594282	Cpw1vbgzRZjbJ9XC2	192.168.10.9	1061	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342583.699224	C9t9hCcYnyKD30z3	192.168.10.9	1068	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342667.622704	CkRPW8QI2GgzF9X68	192.168.10.5	49231	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342675.333995	CwZrHR2nheJz025uYl	192.168.10.5	49245	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342710.754069	CLBMPev6ijl5j1ND5	192.168.10.17	42550	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342708.195041	CE344ep00mQRKqy71	192.168.10.17	42548	192.168.10.50	22	2	-	0	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342736.742411	CPtmaKJZtpRe0ubad	192.168.10.8	49202	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499342738.992114	CyAm4W1skW3nwKUTUb	192.168.10.8	49213	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499343022.651774	CypMpQ2hhFXfQrf1Da	192.168.10.51	44623	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499343026.181140	CcLLe144148QvIW07j	192.168.10.51	44625	192.168.10.50	22	2	-	0	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	-	-	-	-	-	-
+1499343112.839810	CmxIah4cs8d7aQz3tl	192.168.10.16	49382	192.168.10.50	22	2	T	1	-	SSH-2.0-JSCH-0.1.51	SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.2	aes128-ctr	hmac-sha1	none	diffie-hellman-group14-sha1	ssh-rsa	b5:61:ea:b4:37:43:8d:65:3f:20:5a:75:55:14:45:f0
+1499343115.292473	CXA95m2bp3HQ2wsXlk	192.168.10.16	49386	192.168.10.50	22	-	-	0	-	SSH-2.0-JSCH-0.1.51	-	-	-	-	-	-	-
+#close	2023-04-27-22-17-14

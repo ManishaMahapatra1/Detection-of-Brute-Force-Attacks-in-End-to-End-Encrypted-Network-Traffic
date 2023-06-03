@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2023-04-27-22-16-31
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
+0.000000	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	connection-count brute-force script loaded for proto HTTPS (443/tcp)	-	-	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.15 appears to be brute-forcing/brute-forced HTTPS (seen 125.000000 connections).	-	192.168.10.15	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.19 appears to be brute-forcing/brute-forced HTTPS (seen 46.000000 connections).	-	192.168.10.19	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.9 appears to be brute-forcing/brute-forced HTTPS (seen 109.000000 connections).	-	192.168.10.9	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.8 appears to be brute-forcing/brute-forced HTTPS (seen 20.000000 connections).	-	192.168.10.8	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.5 appears to be brute-forcing/brute-forced HTTPS (seen 53.000000 connections).	-	192.168.10.5	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.25 appears to be brute-forcing/brute-forced HTTPS (seen 26.000000 connections).	-	192.168.10.25	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.14 appears to be brute-forcing/brute-forced HTTPS (seen 36.000000 connections).	-	192.168.10.14	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499342938.511133	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.17 appears to be brute-forcing/brute-forced HTTPS (seen 23.000000 connections).	-	192.168.10.17	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.16 appears to be brute-forcing/brute-forced HTTPS (seen 12.000000 connections).	-	192.168.10.16	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.15 appears to be brute-forcing/brute-forced HTTPS (seen 98.000000 connections).	-	192.168.10.15	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.19 appears to be brute-forcing/brute-forced HTTPS (seen 10.000000 connections).	-	192.168.10.19	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.5 appears to be brute-forcing/brute-forced HTTPS (seen 38.000000 connections).	-	192.168.10.5	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.17 appears to be brute-forcing/brute-forced HTTPS (seen 98.000000 connections).	-	192.168.10.17	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1499343164.838377	-	-	-	-	-	-	-	-	-	HTTPSConnectionCountBruteForce::Brute_Forcing	192.168.10.51 appears to be brute-forcing/brute-forced HTTPS (seen 47.000000 connections).	-	192.168.10.51	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+#close	2023-04-27-22-16-48
