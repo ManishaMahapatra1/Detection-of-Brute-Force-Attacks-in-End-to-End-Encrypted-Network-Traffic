@@ -1,0 +1,18 @@
+Approach_1:
+ ** Includes zeek script for Destination-oriented and Origin-oriented detection of the attack **
+ ** For each of the two sub-directories we have seperate script implementations for the 5 metrices under consideration **
+ ** Required pcap file is present in pcap folder and must be copied to the sub-directories for executing the zeek script. **
+   Command for executing zeek script:
+   zeek -r smallfile <nameOfFile>.zeek
+   The above command must be executed in the sub-directory where the specific zeek script is present.
+   
+Approach_2:
+ Script Files:	
+ ** The required scripts are present in the Approach_2/Scripts folder in the zipped folder **
+ check.py contains the updated code for training the model and testing the model with the splited traffic csv data.
+
+ DataSet Files:
+ ** Inputs to the scripts are present in the Approach_2/DataSet folder in the zipped folder **
+
+ Outputs Files:
+ ** Includes the results for each of the sub-process specified in the script for the implementation i.e. features csv file, classifier model, comparison graph for precision and accuracy of the model in detection of Brute-force attack **
